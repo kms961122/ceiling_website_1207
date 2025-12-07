@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    z-index: 9999; 
+}
+
+.g1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 19%;
+    height: 100%;
+    background-image: url('image/g1.png');
+    background-size: cover;
+}
+
+.g2 {
+    position: fixed;
+    top: 0;
+    left: 19%;
+    width: 45%;
+    height: 100%;
+    background-image: url('image/g2.png');
+    background-size: cover;
+}
+
+.g3 {
+    position: fixed;
+    top: 0;
+    left: 64%;
+    width: 12%;
+    height: 100%;
+    background-image: url('image/g3.png');
+    background-size: cover;
+}
+
+.g4 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 24%;
+    height: 77%;
+    background-image: url('image/g4.png');
+    background-size: cover;
+}
+
+.g5 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 24%;
+    height: 23%;
+    background-image: url('image/g5.png');
+    background-size: cover;
+}
+
+@media (max-width: 700px) {
+  .g1 {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 27%;
+    height: 76%;
+    background-image: url('image/mobile_g1.png');
+    background-size: cover;
+    }
+
+    .g2 {
+    position: fixed;
+    top: 0;
+    left: 27%;
+    width: 56%;
+    height: 59%;
+    background-image: url('image/mobile_g2.png');
+    background-size: cover;
+    }
+
+    .g3 {
+    position: fixed;
+    top: 59%;
+    left: 27%;
+    width: 56%;
+    height: 17%;
+    background-image: url('image/mobile_g3.png');
+    background-size: cover;
+    }
+
+    .g4 {
+    position: fixed;
+    top: 76%;
+    left: 0;
+    width: 83%;
+    height: 24%;
+    background-image: url('image/mobile_g4.png');
+    background-size: cover;
+    }
+
+    .g5 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 17%;
+    height: 100%;
+    background-image: url('image/mobile_g5.png');
+    background-size: cover;
+    }
+}

@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.a {
+    position: absolute;
+    top: 150px;
+    left: 12%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.b {
+    position: absolute;
+    top: 150px;
+    left: 26%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.c {
+    position: absolute;
+    top: 150px;
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.d {
+    position: absolute;
+    top: 150px;
+    left: 54%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.e {
+    position: absolute;
+    top: 150px;
+    left: 68%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.f {
+    position: absolute;
+    top: 150px;
+    left: 82%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.g {
+    position: absolute;
+    top: 300px;
+    left: 12%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.h {
+    position: absolute;
+    top: 300px;
+    left: 26%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.i {
+    position: absolute;
+    top: 300px;
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.j {
+    position: absolute;
+    top: 300px;
+    left: 54%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.k {
+    position: absolute;
+    top: 300px;
+    left: 68%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.l {
+    position: absolute;
+    top: 300px;
+    left: 82%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.m {
+    position: absolute;
+    top: 450px;
+    left: 12%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.n {
+    position: absolute;
+    top: 450px;
+    left: 26%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.o {
+    position: absolute;
+    top: 450px;
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.p {
+    position: absolute;
+    top: 450px;
+    left: 54%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.q {
+    position: absolute;
+    top: 450px;
+    left: 68%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.r {
+    position: absolute;
+    top: 450px;
+    left: 82%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+
+@media (max-width: 800px) {
+     .a {
+        position: absolute;
+        top: 150px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .b {
+        position: absolute;
+        top: 150px;
+        left: 32%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .c {
+        position: absolute;
+        top: 150px;
+        left: 52%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .d {
+        position: absolute;
+        top: 150px;
+        left: 72%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .e {
+        position: absolute;
+        top: 300px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .f {
+        position: absolute;
+        top: 300px;
+        left: 32%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .g {
+        position: absolute;
+        top: 300px;
+        left: 52%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .h {
+        position: absolute;
+        top: 300px;
+        left: 72%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .i {
+        position: absolute;
+        top: 450px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .j {
+        position: absolute;
+        top: 450px;
+        left: 32%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .k {
+        position: absolute;
+        top: 450px;
+        left: 52%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .l {
+        position: absolute;
+        top: 450px;
+        left: 72%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .m {
+        position: absolute;
+        top: 600px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+        }
+
+    .n {
+        position: absolute;
+        top: 600px;
+        left: 32%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .o {
+        position: absolute;
+        top: 600px;
+        left: 52%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .p {
+        position: absolute;
+        top: 600px;
+        left: 72%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .q {
+        position: absolute;
+        top: 750px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+    .r {
+        position: absolute;
+        top: 750px;
+        left: 32%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+    }
+
+
+
+}
+
+

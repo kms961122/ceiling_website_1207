@@ -1,0 +1,88 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+li {
+    flex: 1;
+    height: calc(100% / 5);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 43px;
+    color: white;
+}
+
+.천{
+    position: fixed;
+    top: 5%;
+    left: 5%;
+}
+
+.장{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+.조{
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.각{
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+}
+
+.조2{
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+}
+
+.각2{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+   
+
+
+
+.title {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.g-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 4%;
+    height: 4%;
+    display: flex;
+}

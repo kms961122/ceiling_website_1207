@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>도서관 천장1</title>
+		<meta name="description" content="도서관 3층 주제자료실에서 찍은 천장 사진입니다.">
+		<meta name="keywords" content="서울여자대학교, 도서관, 3층, 주제자료실, 천장, 사진">
+		<link rel="stylesheet" href="click.css">
+	</head>
+
+	<body>
+		<h1>도서관 3층 주제자료실</h1>
+	 	<section class="a">
+       	<img id="fullImage" src="image/d1-1.png">
+   		</section>
+
+	    <script>
+	        const img = document.getElementById("fullImage");
+	        const images = ["image/d1-1.png", "image/d1-2.jpeg"];
+	        let index = 0;
+
+	        document.body.addEventListener("click", () => {
+	            index = (index + 1) % images.length; 
+	            img.src = images[index];
+	        });
+	    </script>
+	</body>
+</html>
